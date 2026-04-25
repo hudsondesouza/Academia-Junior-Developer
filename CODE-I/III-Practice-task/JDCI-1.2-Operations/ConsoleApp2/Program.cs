@@ -7,6 +7,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            // JDCI-1.2 = Operations "The application receives two number,
+            //                        then calculates which has the highest result
+            //                        of the division of one from the other.
+            //                        The result must be returned;"
+
+
             RandomNumber randomNumber = new RandomNumber();
 
             double a = randomNumber.Lottery(0, 100);
