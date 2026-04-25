@@ -23,8 +23,17 @@ namespace ConsoleApp2
             string highestResult;
 
             if (result1 > result2)
-                result1 = highestResult;
-            
+                highestResult = "A divided by B";
+            else if (result2 > result1)
+                highestResult = "B divided by A";
+            else 
+                highestResult = "tie";
+
+            Console.WriteLine($"a: {a}");
+            Console.WriteLine($"b: {b}");
+
+            Console.WriteLine($"highest reult: {max}");
+            Console.WriteLine($"Winner: {highestResult}");
 
             Console.ReadKey();
         }
